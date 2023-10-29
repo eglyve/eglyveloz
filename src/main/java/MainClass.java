@@ -11,6 +11,13 @@ public class MainClass {
 
         System.out.print("Tipo de ejercicio (1=Suma, 2=Resta, 3=Multiplicación, 4=División, 5=Random): ");
         int problemType = inputScanner.nextInt();
+        
+        
+        InterfazUsuario userInterface = new InterfazUsuario();
+        GeneradorPreguntas questionMaker = new GeneradorPreguntas(difficulty, problemType);
+
+        
+        
        
     }
     
