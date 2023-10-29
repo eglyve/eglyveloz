@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class InterfazUsuario {
+
     private Scanner inputScanner;
 
     public InterfazUsuario() {
